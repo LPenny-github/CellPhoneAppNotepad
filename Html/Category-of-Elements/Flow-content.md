@@ -1,9 +1,18 @@
 # Flow Content
 
 
+## What
+
+
 大部分的文件與應用都屬於這類。
 
 > Most elements that are used in the body of documents and applications are categorized as flow content.
+
+<img src="Content-Model-from-MDN.png" alt="Content Model from MDN" />
+
+
+
+## Which
 
 
 以下是列舉的元件：
@@ -17,3 +26,6 @@
 
 * 3.2.4.2.2. Flow content
   * https://www.w3.org/TR/2021/SPSD-html52-20210128/dom.html#flow-content
+
+* 內容類型
+  * https://developer.mozilla.org/zh-TW/docs/Web/Guide/HTML/Content_categories#流內容（flow_content）
