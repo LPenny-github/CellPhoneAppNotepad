@@ -41,9 +41,11 @@ Duplicate: 一模一樣（the same）或 相似到會使人聯想到 **抄襲** 
 ## 等等，為什麼最後用的是 Duplicated 而不是 Duplicate ？
 
 
-語感？不是很確定 😅
+語感？不是很確定 😅 
 
 ed: 被 XXX
+
+（2021/12/24）有大大說用 Duplicate 比 Duplicated 正式
 
 
 ## 參考資料
