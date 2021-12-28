@@ -7,6 +7,7 @@
 * [English-for-programmers](./English-for-programmers)
   * [Repetitive-VS-Duplicated](./English-for-programmers/Repetitive-VS-Duplicated.md)
 * [GitHub](./GitHub)
+  * [Clone-a-repository](./GitHub/Clone-a-repository.md)
   * [Create-a-GitHub-Pages-Site-from-Repo](./GitHub/Create-a-GitHub-Pages-Site-from-Repo.md)
 * [Html](./Html)
   * [預設由Chrome開啟](./Html/預設由Chrome開啟.md)
@@ -22,3 +23,5 @@
   * [How-to-open-an-issue-on-MDN-translated-content](./Open-source-contribution/How-to-open-an-issue-on-MDN-translated-content.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
+    * [xUnit2004](./xUnit/Error-codes/xUnit2004.md)
+    * [xUnit2013](./xUnit/Error-codes/xUnit2013.md)
