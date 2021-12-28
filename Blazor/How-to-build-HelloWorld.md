@@ -17,7 +17,7 @@
    * `-o BlazorApp` ：變更專案名稱為 BlazorApp 。
      * 專案名稱預設與資料夾名稱相同。
 
-   * `--no-https` ： **我看不懂，相關資料先列在下面**
+   * `--no-https` ：代表預設關閉 https （即 使用 http）
 
      ```txt
        --no-https                 Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.
@@ -45,7 +45,10 @@
 
     * 有任何看不懂的指令，都可以用 `dotnet new BlazorServer -h` 查詢。
 
-1. `cd .\BlazorApp\` ：指向檔案 `BlazorApp`
+
+## 驗證
+
+1. 承上步驟 `cd .\BlazorApp\` ：指向檔案 `BlazorApp`
 
 1. `dotnet watch` 
    * 結束記得按 `ctrl` + `C`
