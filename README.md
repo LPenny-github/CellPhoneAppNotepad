@@ -8,6 +8,8 @@
 * [CSS](./CSS)
 * [English-for-programmers](./English-for-programmers)
   * [Repetitive-VS-Duplicated](./English-for-programmers/Repetitive-VS-Duplicated.md)
+* [Entity-Framework](./Entity-Framework)
+  * [Sqlite](./Entity-Framework/Sqlite)
 * [GitHub](./GitHub)
   * [Clone-a-repository](./GitHub/Clone-a-repository.md)
   * [Create-a-GitHub-Pages-Site-from-Repo](./GitHub/Create-a-GitHub-Pages-Site-from-Repo.md)
