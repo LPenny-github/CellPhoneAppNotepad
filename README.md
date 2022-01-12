@@ -1,6 +1,7 @@
 * [README](./README.md)
 * [Blazor](./Blazor)
   * [A-stopwatch-triggered-by-a-button](./Blazor/A-stopwatch-triggered-by-a-button.md)
+  * [An-event-handler-fired-by-the-timer](./Blazor/An-event-handler-fired-by-the-timer.md)
   * [How-to-build-HelloWorld](./Blazor/How-to-build-HelloWorld.md)
   * [What-and-Why-is-`--no-https`](./Blazor/What-and-Why-is-`--no-https`.md)
 * [Chrome](./Chrome)
