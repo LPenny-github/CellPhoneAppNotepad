@@ -13,6 +13,7 @@
     * [The-touch-command-in-powershell](./English-for-programmers/Google-key-words/The-touch-command-in-powershell.md)
 * [Entity-Framework-Core](./Entity-Framework-Core)
   * [Sqlite](./Entity-Framework-Core/Sqlite)
+    * [CLI-commands-in-Hello-world](./Entity-Framework-Core/Sqlite/CLI-commands-in-Hello-world.md)
     * [Hello-world](./Entity-Framework-Core/Sqlite/Hello-world.md)
     * [Model](./Entity-Framework-Core/Sqlite/Model)
       * [Create-one-table](./Entity-Framework-Core/Sqlite/Model/Create-one-table.md)
