@@ -31,6 +31,7 @@
 * [iPhone](./iPhone)
   * [Shortcuts](./iPhone/Shortcuts)
     * [Hello-world](./iPhone/Shortcuts/Hello-world)
+      * [Use-the-Show-Alert-action](./iPhone/Shortcuts/Hello-world/Use-the-Show-Alert-action.md)
       * [Use-the-Show-Notification-action](./iPhone/Shortcuts/Hello-world/Use-the-Show-Notification-action.md)
 * [MIT-App-Inventor](./MIT-App-Inventor)
   * [HelloPurr](./MIT-App-Inventor/HelloPurr.md)
