@@ -64,6 +64,17 @@
 
        [Microsoft.EntityFrameworkCore.Design ](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/)
 
+   * 驗證是否成功安裝 Microsoft.EntityFrameworkCore.Design
+
+     * 到 .csproj 看看有沒有這幾行：
+
+       ```cs
+       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.1">
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+          <PrivateAssets>all</PrivateAssets>
+       </PackageReference>
+       ```
+
 
 * 驗證是否已正確安裝 EF Core CLI 工具：
 
