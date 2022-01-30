@@ -35,6 +35,7 @@
 * [iPhone](./iPhone)
   * [Create-a-screen-recording](./iPhone/Create-a-screen-recording.md)
   * [Shortcuts](./iPhone/Shortcuts)
+    * [Test-the-actions-in-shortcuts](./iPhone/Shortcuts/Test-the-actions-in-shortcuts.md)
     * [Hello-world](./iPhone/Shortcuts/Hello-world)
       * [Use-the-Show-Alert-action](./iPhone/Shortcuts/Hello-world/Use-the-Show-Alert-action.md)
       * [Use-the-Show-Notification-action](./iPhone/Shortcuts/Hello-world/Use-the-Show-Notification-action.md)
