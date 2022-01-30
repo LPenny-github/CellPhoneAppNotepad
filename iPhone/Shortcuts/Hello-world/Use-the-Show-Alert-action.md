@@ -20,7 +20,7 @@
 
 * 由於我們只需要把之前的作品，由 顯示通知 換成 顯示提示，為了精簡筆記，重複的部分請參酌：
 
-  * [Use the Show Notification action to build Hello World](https://github.com/LPenny-github/CellPhoneAppNotepad/blob/main/iPhone/Shortcuts/Hello-world/Use-the-Show-Notification-action.md#%E5%9F%B7%E8%A1%8C)
+  * [Use the Show Notification action to build Hello World](https://github.com/LPenny-github/CellPhoneAppNotepad/blob/main/iPhone/Shortcuts/Hello-world/Use-the-Show-Notification-action.md)
 
 * 官方文件
 
