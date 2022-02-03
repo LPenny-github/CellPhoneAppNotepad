@@ -43,6 +43,7 @@
       * [Use-the-Show-Notification-action](./iPhone/Shortcuts/Hello-world/Use-the-Show-Notification-action.md)
       * [Use-the-Show-Result-action](./iPhone/Shortcuts/Hello-world/Use-the-Show-Result-action.md)
     * [MMA](./iPhone/Shortcuts/MMA)
+      * [Make-a-call](./iPhone/Shortcuts/MMA/Make-a-call.md)
       * [Open-a-website](./iPhone/Shortcuts/MMA/Open-a-website.md)
       * [Remind-before-surfing-Facebook](./iPhone/Shortcuts/MMA/Remind-before-surfing-Facebook.md)
       * [Scan-QR-code-for-Real-Name-Registration-System](./iPhone/Shortcuts/MMA/Scan-QR-code-for-Real-Name-Registration-System.md)
