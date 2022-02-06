@@ -48,6 +48,7 @@
     * [MMA](./iPhone/Shortcuts/MMA)
       * [Make-a-call](./iPhone/Shortcuts/MMA/Make-a-call.md)
       * [Open-a-website](./iPhone/Shortcuts/MMA/Open-a-website.md)
+      * [Play-an-audio-file](./iPhone/Shortcuts/MMA/Play-an-audio-file.md)
       * [Remind-before-surfing-Facebook](./iPhone/Shortcuts/MMA/Remind-before-surfing-Facebook.md)
       * [Scan-QR-code-for-Real-Name-Registration-System](./iPhone/Shortcuts/MMA/Scan-QR-code-for-Real-Name-Registration-System.md)
       * [Set-a-timer](./iPhone/Shortcuts/MMA/Set-a-timer.md)
