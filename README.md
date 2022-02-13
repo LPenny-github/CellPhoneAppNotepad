@@ -62,6 +62,8 @@
   * [Datatypes](./SQLite/Datatypes.md)
   * [DB-Browser-for-SQLite](./SQLite/DB-Browser-for-SQLite)
     * [Download](./SQLite/DB-Browser-for-SQLite/Download.md)
+    * [Execute-SQL](./SQLite/DB-Browser-for-SQLite/Execute-SQL)
+      * [Create-one-table](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Create-one-table.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
     * [xUnit2004](./xUnit/Error-codes/xUnit2004.md)
