@@ -37,7 +37,7 @@
 
 準備 SQL 語法（非必要）
 
-  * 可以使用 GUI 介面建立 table ，然後觀察 DB Browser 的 log 是怎麼寫的 😆
+  * 可以使用 GUI 介面建立 table ，然後觀察 DB Browser Application log 是怎麼寫的 😆
 
     **注意** ： DB Browser 的 log 會把 資料表名稱、欄位名稱......加上 `""` ， SQL 語法不需要加上 `""` ，但 `execute SQL`無論是否有 `""` 都可以被接受。
 
@@ -90,3 +90,89 @@
     1 |1     |tweezers   |  鑷子
     2 |2     |clothespin |	洗衣夾
     3 |3     |clothesline|	曬衣繩
+
+
+## 2022/02/14 檢討
+
+
+### Why 
+
+
+在 INSERT INTO 時特別指定欄位，這樣可以確保資料表欄位被變動（而你不知情）時，儲存正確的資料。
+
+>  if you ever add, move, or delete columns in your table definition the INSERT will either fail or produce incorrect data (with the values in the wrong columns).
+
+   [Is there an auto increment in sqlite?](https://stackoverflow.com/questions/7905859/is-there-an-auto-increment-in-sqlite)
+
+
+### How
+
+
+我們為這個資料表加上一筆新資料：
+
+```sql
+INSERT INTO EnglishVocabularyNote (NoteId, Word, MeaningInChinese)
+VALUES (4, 'keychain', '鑰匙圈')
+```
+
+
+### Verify
+
+
+1. 看是否儲存成功：
+
+
+    ```sql
+    SELECT * FROM EnglishVocabularyNote WHERE NoteId = 4
+    ```
+
+
+    結果：
+
+
+    --|NoteId|Word|MeaningInChinese
+    --|------:|:-----------|:-------------
+    1 |4|keychain|鑰匙圈
+
+
+### What if...?
+
+
+1. 毀滅的情境：欄位與資料不符
+
+
+    ```sql
+    INSERT INTO EnglishVocabularyNote 
+    VALUES (4, 'rubber band', '橡皮筋', '來鬧的')
+    ```
+
+
+    結果：
+
+    ```sql
+    Execution finished with errors.
+    Result: table EnglishVocabularyNote has 3 columns but 4 values were supplied
+    At line 1:
+    INSERT INTO EnglishVocabularyNote 
+    VALUES (4, 'rubber band', '橡皮筋', '來鬧的')
+    ```
+
+1. 毀滅的情境：資料錯置
+
+    ```sql
+    INSERT INTO EnglishVocabularyNote 
+    VALUES (5, '杯墊', 'coaster')
+    ```
+
+
+    ```sql
+    SELECT * FROM EnglishVocabularyNote WHERE NoteId = 5
+    ```
+
+
+    結果：
+
+
+    --|NoteId|Word|MeaningInChinese
+    --|------:|:-----------|:-------------
+    1 |5|杯墊|coaster
