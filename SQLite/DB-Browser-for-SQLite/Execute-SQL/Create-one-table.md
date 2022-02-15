@@ -71,6 +71,9 @@
     (3, 'clothesline', '曬衣繩')
    ```
 
+   * **2022/02/15 檢討** ： 如果我想要在 NoteId 填入從 1 開始往下遞增的整數，其實 **也** 可以不用特地給 NoteId ，但是需要在 SQL 語法中指定欄位。
+   
+      * 請見 [Auto increment primary key](https://github.com/LPenny-github/CellPhoneAppNotepad/blob/main/SQLite/DB-Browser-for-SQLite/Execute-SQL/Auto-increment-primary-key.md)
 
 
 ## 驗證
