@@ -1,4 +1,4 @@
-# Download
+# Download and settings
 
 
 1. 選一個適合的版本
