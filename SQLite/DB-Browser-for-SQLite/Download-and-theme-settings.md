@@ -1,4 +1,4 @@
-# Download and settings
+# Download and theme settings
 
 
 1. 選一個適合的版本
