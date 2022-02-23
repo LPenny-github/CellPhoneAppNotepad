@@ -65,6 +65,7 @@
     * [Download-and-theme-settings](./SQLite/DB-Browser-for-SQLite/Download-and-theme-settings.md)
     * [Execute-SQL](./SQLite/DB-Browser-for-SQLite/Execute-SQL)
       * [Auto-increment-primary-key](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Auto-increment-primary-key.md)
+      * [Basic-CRUD](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Basic-CRUD.md)
       * [Create-one-table](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Create-one-table.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
