@@ -9,6 +9,13 @@ row   |✔ |✔   |     |✔   |
 
 
 ---
+
+* **注意**
+
+  * 每一句結束應該加上 `;` ，但在 DB Browser 的 Execute SQL 介面中，操作一行指令時可以省略 `;` 。
+
+  * 在 DB Browser 的 Execute SQL 介面中，操作兩行指令，至少前面那句結尾要有 `;` ，否則將出現錯誤。
+
 ---
 
 ## table
@@ -22,7 +29,7 @@ row   |✔ |✔   |     |✔   |
 	Word TEXT NOT NULL,
 	MeaningInChinese TEXT NOT NULL,
 	PRIMARY KEY(NoteId)
-    )
+    );
 ```
 
 
@@ -30,7 +37,7 @@ row   |✔ |✔   |     |✔   |
 
 
 ```sql
-  SELECT * FROM EnglishVocabularyNote
+  SELECT * FROM EnglishVocabularyNote;
 ```  
 
 
@@ -43,7 +50,7 @@ row   |✔ |✔   |     |✔   |
 
 ```sql
   INSERT INTO EnglishVocabularyNote (NoteId, Word, MeaningInChinese)
-  VALUES (4, 'keychain', '鑰匙圈')
+  VALUES (4, 'keychain', '鑰匙圈');
 ```
 
 
@@ -51,7 +58,7 @@ row   |✔ |✔   |     |✔   |
 
 
 ```sql
-  SELECT * FROM EnglishVocabularyNote WHERE NoteId = 4
+  SELECT * FROM EnglishVocabularyNote WHERE NoteId = 4;
 ```
 
 
@@ -59,5 +66,5 @@ row   |✔ |✔   |     |✔   |
 
 ```sql
   DELETE FROM EnglishVocabularyNote
-  WHERE NoteId = 4
+  WHERE NoteId = 4;
 ```
