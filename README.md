@@ -67,6 +67,8 @@
       * [Auto-increment-primary-key](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Auto-increment-primary-key.md)
       * [Basic-CRUD](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Basic-CRUD.md)
       * [Create-one-table](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Create-one-table.md)
+  * [Keywords](./SQLite/Keywords)
+    * [Autoincrement](./SQLite/Keywords/Autoincrement.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
     * [xUnit2004](./xUnit/Error-codes/xUnit2004.md)
