@@ -3,9 +3,9 @@
 
 ---|Create|Read|Update|Delete|
 ---|:---:|:---:|:---:|:---:|
-table |✔ |✔   |     |     |
-column|  |     |     |     |
-row   |✔ |✔   |     |✔   |
+table |✔ |✔   |     |✔    |
+column|  |✔   |✔   |     |
+row   |✔ |✔   |✔   |✔   |
 
 
 ---
@@ -29,7 +29,17 @@ row   |✔ |✔   |     |✔   |
 	Word TEXT NOT NULL,
 	MeaningInChinese TEXT NOT NULL,
 	PRIMARY KEY(NoteId)
-    );
+  );
+```
+
+或者
+
+```sql
+  CREATE TABLE EnglishVocabularyNote(
+	NoteId INTEGER PRIMARY KEY,
+	Word TEXT NOT NULL,
+	MeaningInChinese TEXT NOT NULL
+  );
 ```
 
 
@@ -40,6 +50,34 @@ row   |✔ |✔   |     |✔   |
   SELECT * FROM EnglishVocabularyNote;
 ```  
 
+
+### D
+
+
+```sql
+  DROP TABLE EnglishVocabularyNote;
+```
+
+
+---
+
+## column
+
+### R
+
+
+```sql
+  SELECT Word FROM EnglishVocabularyNote;
+```
+
+
+### U
+
+
+```sql
+  UPDATE EnglishVocabularyNote
+  SET MeaningInChinese = '';
+```
 
 ---
 
@@ -62,7 +100,18 @@ row   |✔ |✔   |     |✔   |
 ```
 
 
+### U
+
+
+```sql
+  UPDATE EnglishVocabularyNote
+  SET Word = 'mouse', MeaningInChinese = '滑鼠'
+  WHERE NoteId = 3;
+```
+
+
 ### D
+
 
 ```sql
   DELETE FROM EnglishVocabularyNote
