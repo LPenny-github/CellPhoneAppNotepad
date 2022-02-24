@@ -4,7 +4,7 @@
 ---|Create|Read|Update|Delete|
 ---|:---:|:---:|:---:|:---:|
 table |✔ |✔   |     |✔    |
-column|  |✔   |✔   |     |
+column|✔ |✔   |✔   |✔   |
 row   |✔ |✔   |✔   |✔   |
 
 
@@ -63,6 +63,15 @@ row   |✔ |✔   |✔   |✔   |
 
 ## column
 
+### C
+
+
+```sql
+  ALTER TABLE EnglishVocabularyNote
+  ADD ReviewCount INTEGER;
+```
+
+
 ### R
 
 
@@ -78,6 +87,16 @@ row   |✔ |✔   |✔   |✔   |
   UPDATE EnglishVocabularyNote
   SET MeaningInChinese = '';
 ```
+
+
+### D
+
+
+```sql
+  ALTER TABLE EnglishVocabularyNote
+  DROP COLUMN ReviewCount;
+```
+
 
 ---
 
