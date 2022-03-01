@@ -1,4 +1,4 @@
-# Autoincrement
+# AUTOINCREMENT
 
 
 [SQLite Autoincrement](https://www.sqlite.org/autoinc.html)
