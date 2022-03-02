@@ -112,4 +112,4 @@
     1 |1     |tweezers   |  鑷子
     2 |2     |clothespin |	洗衣夾
     3 |4     |keychain|	鑰匙圈
-    3 |5	 |clothesline|	曬衣繩
+    4 |5	 |clothesline|	曬衣繩
