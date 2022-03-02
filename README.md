@@ -68,7 +68,7 @@
       * [Basic-CRUD](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Basic-CRUD.md)
       * [Create-one-table](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Create-one-table.md)
   * [Keywords](./SQLite/Keywords)
-    * [Autoincrement](./SQLite/Keywords/Autoincrement.md)
+    * [AUTOINCREMENT](./SQLite/Keywords/AUTOINCREMENT.md)
     * [LIMIT](./SQLite/Keywords/LIMIT.md)
     * [OFFSET](./SQLite/Keywords/OFFSET.md)
 * [xUnit](./xUnit)
