@@ -29,7 +29,7 @@
 1 |1 |tweezers   |  鑷子
 2 |2 |clothespin |	洗衣夾
 3 |3 |clothesline|	曬衣繩
-3 |4 |flashlight |	手電筒
+4 |4 |flashlight |	手電筒
 
 ---
 
@@ -75,7 +75,7 @@ SELECT * FROM EnglishVocabularyNote LIMIT -1;
 1 |1 |tweezers   |  鑷子
 2 |2 |clothespin |	洗衣夾
 3 |3 |clothesline|	曬衣繩
-3 |4 |flashlight |	手電筒
+4 |4 |flashlight |	手電筒
 
 ---
 
@@ -91,4 +91,4 @@ SELECT * FROM EnglishVocabularyNote LIMIT 1000;
 1 |1 |tweezers   |  鑷子
 2 |2 |clothespin |	洗衣夾
 3 |3 |clothesline|	曬衣繩
-3 |4 |flashlight |	手電筒
+4 |4 |flashlight |	手電筒

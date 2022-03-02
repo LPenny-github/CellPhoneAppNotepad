@@ -33,7 +33,7 @@
 1 |1 |tweezers   |  鑷子
 2 |2 |clothespin |	洗衣夾
 3 |3 |clothesline|	曬衣繩
-3 |4 |flashlight |	手電筒
+4 |4 |flashlight |	手電筒
 
 ---
 
@@ -47,8 +47,8 @@ LIMIT 2 OFFSET 1
 
 --|NoteId|Word|MeaningInChinese
 --|------:|:-----------|:-------------
-2 |2 |clothespin |	洗衣夾
-3 |3 |clothesline|	曬衣繩
+1 |2 |clothespin |	洗衣夾
+2 |3 |clothesline|	曬衣繩
 
 ---
 
