@@ -40,7 +40,7 @@
 
         > On an INSERT, if the ROWID or INTEGER PRIMARY KEY column is not explicitly given a value, then it will be filled automatically with an unused integer, usually one more than the largest ROWID currently in use. This is true regardless of whether or not the AUTOINCREMENT keyword is used.
 
-        * 筆記： [Autoincrement](https://github.com/LPenny-github/CellPhoneAppNotepad/blob/main/SQLite/Keywords/Autoincrement.md)
+        * 筆記： [AUTOINCREMENT](https://github.com/LPenny-github/CellPhoneAppNotepad/blob/main/SQLite/Keywords/AUTOINCREMENT.md)
 
     * [Rowid Tables](https://www.sqlite.org/rowidtable.html)
 
