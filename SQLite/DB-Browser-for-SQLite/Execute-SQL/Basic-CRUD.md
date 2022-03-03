@@ -66,6 +66,16 @@ row   |✔ |✔   |✔   |✔   |
 ### C
 
 
+**注意** ：在 DB Browser 的 Execute SQL 介面中，下面兩個句法的結果相同（差別於有沒有加上 `COLUMN` ，在 DROP COLUMN 時也會有同樣的狀況。由於官方文件的語法上有加上 `COLUMN` ，建議還是要有 `COLUMN` 。
+
+
+```sql
+  ALTER TABLE EnglishVocabularyNote
+  ADD COLUMN ReviewCount INTEGER;
+```
+
+或：
+
 ```sql
   ALTER TABLE EnglishVocabularyNote
   ADD ReviewCount INTEGER;
