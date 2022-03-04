@@ -69,6 +69,7 @@
       * [Create-one-table](./SQLite/DB-Browser-for-SQLite/Execute-SQL/Create-one-table.md)
   * [Keywords](./SQLite/Keywords)
     * [AUTOINCREMENT](./SQLite/Keywords/AUTOINCREMENT.md)
+    * [DEFAULT](./SQLite/Keywords/DEFAULT.md)
     * [LIKE](./SQLite/Keywords/LIKE.md)
     * [LIMIT](./SQLite/Keywords/LIMIT.md)
     * [OFFSET](./SQLite/Keywords/OFFSET.md)
