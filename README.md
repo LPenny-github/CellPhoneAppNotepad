@@ -73,6 +73,7 @@
     * [LIKE](./SQLite/Keywords/LIKE.md)
     * [LIMIT](./SQLite/Keywords/LIMIT.md)
     * [OFFSET](./SQLite/Keywords/OFFSET.md)
+    * [RENAME](./SQLite/Keywords/RENAME.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
     * [xUnit2004](./xUnit/Error-codes/xUnit2004.md)
