@@ -60,6 +60,7 @@
   * [How-to-open-an-issue-on-MDN-translated-content](./Open-source-contribution/How-to-open-an-issue-on-MDN-translated-content.md)
 * [SQLite](./SQLite)
   * [Basic-knowledge](./SQLite/Basic-knowledge.md)
+  * [Check-current-version](./SQLite/Check-current-version.md)
   * [Datatypes](./SQLite/Datatypes.md)
   * [DB-Browser-for-SQLite](./SQLite/DB-Browser-for-SQLite)
     * [Download-and-theme-settings](./SQLite/DB-Browser-for-SQLite/Download-and-theme-settings.md)
