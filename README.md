@@ -75,6 +75,8 @@
     * [LIMIT](./SQLite/Keywords/LIMIT.md)
     * [OFFSET](./SQLite/Keywords/OFFSET.md)
     * [RENAME](./SQLite/Keywords/RENAME.md)
+* [TypeScript](./TypeScript)
+  * [Environment-setup](./TypeScript/Environment-setup.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
     * [xUnit2004](./xUnit/Error-codes/xUnit2004.md)
