@@ -77,6 +77,7 @@
     * [RENAME](./SQLite/Keywords/RENAME.md)
 * [TypeScript](./TypeScript)
   * [Environment-setup](./TypeScript/Environment-setup.md)
+  * [Hello-World](./TypeScript/Hello-World.md)
 * [xUnit](./xUnit)
   * [Error-codes](./xUnit/Error-codes)
     * [xUnit2004](./xUnit/Error-codes/xUnit2004.md)
