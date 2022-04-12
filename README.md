@@ -55,6 +55,8 @@
       * [Set-a-timer](./iPhone/Shortcuts/MMA/Set-a-timer.md)
       * [Use-GIPHY-to-share-GIFs](./iPhone/Shortcuts/MMA/Use-GIPHY-to-share-GIFs.md)
 * [JavaScript](./JavaScript)
+  * [syntax](./JavaScript/syntax)
+    * [Spread-syntax](./JavaScript/syntax/Spread-syntax.md)
 * [MIT-App-Inventor](./MIT-App-Inventor)
   * [HelloPurr](./MIT-App-Inventor/HelloPurr.md)
 * [Open-source-contribution](./Open-source-contribution)
