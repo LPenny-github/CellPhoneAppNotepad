@@ -56,6 +56,7 @@
       * [Use-GIPHY-to-share-GIFs](./iPhone/Shortcuts/MMA/Use-GIPHY-to-share-GIFs.md)
 * [JavaScript](./JavaScript)
   * [syntax](./JavaScript/syntax)
+    * [for-of](./JavaScript/syntax/for-of.md)
     * [Spread-syntax](./JavaScript/syntax/Spread-syntax.md)
 * [MIT-App-Inventor](./MIT-App-Inventor)
   * [HelloPurr](./MIT-App-Inventor/HelloPurr.md)
