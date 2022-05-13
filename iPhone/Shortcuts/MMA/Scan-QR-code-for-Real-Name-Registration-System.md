@@ -1,6 +1,9 @@
 # Scan QR code for Real-Name Registration System
 
 
+由於 1922 實名制已經退場，所以無法再對 1922 發簡訊。但只要更改接收訊息的對象，這個模組還是可行的 （2022/05/13）。
+
+
 ## 目的
 
 
